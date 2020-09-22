@@ -1,0 +1,154 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+/* Первый экран*/
+ul, li{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    padding-top: 74px;
+    background: #f5f5f5;
+    background-image: url("../img/background1.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-position: 40% 80%;
+    color: black;
+}
+
+.menu {
+    margin-top: 10px;
+
+}
+.logo{
+
+    width: 160px;
+    height: 40px;
+}
+.menu__item{
+    margin: 0px 30px;
+}
+
+.menu__item a{
+    font-size: 30px;
+
+    font-weight: 400;
+    color:black;
+    text-decoration: none;
+}
+
+.menu__item a:hover{
+    font-weight: 700;
+    color:black;
+}
+
+.offer{
+    margin-top: 143px;
+    margin-bottom: 268px;
+}
+
+.offer__title{
+    font-size: 72px;
+    margin-bottom: 15px;
+    line-height: 1.0em;
+
+}
+.offer_intro{
+    font-size: 24px;
+    line-height: 1.0em;
+    margin-top: 60px;
+}
+/*2*/
+
+.about{
+
+}
+.sec_about{
+    padding-top: 100px;
+    padding-bottom: 210px;
+    background-image: url("../img/me.png");
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position: 80% 15%;
+}
+.about__title{
+    font-size: 72px;
+    font-weight: 700;
+    color:black;
+}
+
+.about_intro{
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-top: 60px;
+}
+/*3*/
+.sec_skills{
+    padding-top: 10px;
+    padding-bottom: 73px;
+    background: #f5f5f5;
+    background-image: url("../img/background2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-position: 2% 100%;
+}
+.skills__title{
+    padding-top: 73px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.skills__intro{
+    padding-top: 73px;
+    font-size: 36px;
+    line-height: 1.5em;
+}
+#skills2{
+    margin: 0px 280px;
+}
+.sec_contact{
+    padding-top: 73px;
+    padding-bottom: 30px;
+}
+.contact__title{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 0.8em;
+}
+
+.icon1,.icon2, .icon3,.icon5,.icon4{
+    width: 33px;
+    height: 33px;
+}
+.icon5,.icon4{
+    margin:0px 20px;
+}
+.email{
+    padding-top: 73px;
+}
+.contact__text{
+
+    margin-left:50px;
+    font-size: 22px;
+}
+
+.phone{
+    padding-top: 10px;
+}
+
+
+.geo{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.site-footer {
+    padding-top:20px;
+    padding-bottom:10px;
+    color: #999;
+    text-align: center;
+    background-color: #2c2c2c;
+    border-top: .05rem solid #e5e5e5;
+}
